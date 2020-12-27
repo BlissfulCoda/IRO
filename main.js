@@ -6,10 +6,11 @@ function createMainWindow() {
     mainWindow = new BrowserWindow({
     width: 500,
     title: 'Image Resize & Optimiser',
-    height: 600
+    height: 600,
+    icon: `${__dirname}/assets/icons/Icon_256x256.png`
   });
 
-  mainWindow.loadURL(`file://${__dirname}/app/index.html`)
+  mainWindow.loadFile('./app/index.html');
 }
 
 app.on('ready', createMainWindow);
