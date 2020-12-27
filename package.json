@@ -1,0 +1,15 @@
+{
+  "name": "IRO",
+  "version": "1.0.0",
+  "description": "App to Optimise Images",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Ronnie Kiyegga",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.1.1"
+  }
+}
