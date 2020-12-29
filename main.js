@@ -15,7 +15,8 @@ function createMainWindow() {
     title: 'Image Resize & Optimiser',
     height: 600,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
-    resizable: isDev
+    resizable: isDev,
+    backgroundColor: 'white'
   });
 
   mainWindow.loadFile('./app/index.html');
@@ -29,7 +30,7 @@ function createAboutWindow() {
     height: 300,
     icon: `${__dirname}/assets/icons/Icon_256x256.png`,
     resizable: false,
-    backgroundColor: 'white'
+    backgroundColor: 'white',
   });
 
   aboutWindow.loadFile('./app/about.html');
